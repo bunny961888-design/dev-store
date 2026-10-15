@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "IEEE CodeVault | CSE Final Year Projects & Mini Projects",
   description: "Download verified IEEE CSE major and mini projects with complete source code, PPT, documentation, and base papers. Instant checkout via UPI.",
   keywords: ["ieee codevault", "ieee projects", "cse projects", "btech mini projects", "final year projects"],
+  verification: {
+    google: "fD8sh4eVNUepot-n9XgpLU5eB5rR3k7GvqTsDYPj8EA",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
