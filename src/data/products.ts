@@ -26,7 +26,7 @@ export const PRODUCTS: Product[] = [
     id: "fullstack-ecommerce-nextjs",
     title: "Full Stack E-Commerce & Dashboard",
     category: "Major Project",
-    price: 1,
+    price: 999,
     originalPrice: 1999,
     techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Prisma"],
     description: "Production ready e-commerce platform with admin portal, cart, and payment gateway integration.",

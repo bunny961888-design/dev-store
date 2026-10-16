@@ -138,7 +138,7 @@ export default function CheckoutModal({ product, onClose }: CheckoutModalProps) 
 
             <div className="mt-6 space-y-2">
               <a
-                href="https://github.com"
+                href={product.downloadUrl || "https://drive.google.com/uc?export=download&id=1kjV6l4lxLNTjjb0mkerlt0uLajZl-6mk"}
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center justify-center gap-2 w-full rounded-xl bg-emerald-600 py-2.5 text-xs font-bold text-white hover:bg-emerald-500 transition"
